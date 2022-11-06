@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIS FAMILIARES</title>
+</head>
+<body>
+    <H1>Bienvenido a continuacion le mostrare una lista de mis familiares</H1>
+    <p>
+        <ul>
+            {%for integrante in Integrantes%}
+            <li>{{integrante}}</li>
+            {%endfor%}
+        </ul>
+    </p>
+</body>
+</html>

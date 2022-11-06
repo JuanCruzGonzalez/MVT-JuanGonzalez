@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Mis Familiares</h1>
+    <h4>Acontinuacion veran un lista de mis familiares incluyendo los siguientes datos</h2>
+    <h4>Nombre completo, Edad, Fecha de nacimiento</h2>
+    <ul>
+        {%for nom in Constanza%}
+            {{nom}}
+        {%endfor%}
+        <br>
+        {%for nom in Carolina%}
+            {{nom}}
+        {%endfor%}
+        <br>
+        {%for nom in Ezequiel%}
+            {{nom}}
+        {%endfor%}
+        <br>
+        {%for nom in Hernan%}
+            {{nom}}
+        {%endfor%}
+    </ul>
+
+</body>
+</html>
